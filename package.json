@@ -1,0 +1,28 @@
+{
+  "name": "phil-server",
+  "version": "0.0.1",
+  "description": "DIS VM-PHIL",
+  "keywords": [],
+  "author": "DiS",
+  "license": "Unlicense",
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "isomorphic-git": "^1.8.0",
+    "mysql": "*",
+    "sqlite3": "^5.0.0",
+    "tedious": "*"
+  },
+
+  "bin": "phil-server.js",
+  
+  "pkg": {
+    "scripts": [
+      "lib/**/*.js"
+    ],
+    
+    "assets": []
+  }
+}

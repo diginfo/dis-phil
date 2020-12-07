@@ -1,0 +1,38 @@
+{
+  "SYS": {
+    "license"       : "",
+    "port"          : 7777,
+    "email_support" : "home@peter-c.net",
+    "title"         : "DIS-PHILVM",
+    "data_path"     : "./data",
+    "debug_to"      : "pac@dis.com.sg",
+    "userid"        : "admin",
+    "passwd"        : "phitest"
+  },
+  
+  "SQLITE": {
+    "UI": {
+      "database"    : "/usr/share/dev/nodejs/src/pure3/data/dwap.db",
+      "_database"   : "data/ui.db",
+      "timeout_ms"  : 2000
+    }
+  },
+  
+  "MSSQL": {
+    "VMFG": {
+      "server": "localhost",
+      "database": "SQLD908",
+      "userName": "SYSADM",
+      "password": "SYSADM"
+    }
+  },
+  
+  "MYSQL": {
+    "MYDEV": {
+      "server": "puredb",
+      "database": "MYDEV",
+      "userName": "root",
+      "password": "bukit8002"
+    }
+  }
+}
